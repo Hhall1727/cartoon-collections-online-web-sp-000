@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   new_arr = []
-  dwarves.each_with_index do |name, i|
+  dwarves.each.with_index do |name, i|
     new_arr << "#{i + 1}."
   end
 end
