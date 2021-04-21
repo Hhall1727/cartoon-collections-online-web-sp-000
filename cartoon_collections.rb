@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   new_arr = []
-  dwarves.each_with_index do |name, index|
-    new_arr << #{index + 1}. #{name}
-  end 
+  dwarves.each_with_index do |name, i|
+    new_arr << "#{i + 1}. #{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
